@@ -1,51 +1,5 @@
 {
-  "_args": [
-    [
-      "fis-parser-ssi",
-      "C:\\Users\\Administrator\\Desktop\\testssi"
-    ],
-    [
-      "fis-parser-ssi",
-      "/Users/miko/Desktop/fis-parser-ssi"
-    ],
-    [
-      "fis-parser-ssi",
-      "C:\\Users\\Administrator\\Desktop\\testssi"
-    ]
-  ],
-  "_from": "fis-parser-ssi@latest",
-  "_id": "fis-parser-ssi@1.0.9",
-  "_inCache": true,
-  "_installable": true,
-  "_location": "/fis-parser-ssi",
-  "_nodeVersion": "5.11.0",
-  "_npmOperationalInternal": {
-    "host": "packages-16-east.internal.npmjs.com",
-    "tmp": "tmp/fis-parser-ssi-1.0.9.tgz_1464878098167_0.6019067394081503"
-  },
-  "_npmUser": {
-    "email": "452753617@qq.com",
-    "name": "mikoshu"
-  },
-  "_npmVersion": "3.8.6",
-  "_phantomChildren": {},
-  "_requested": {
-    "name": "fis-parser-ssi",
-    "raw": "fis-parser-ssi",
-    "rawSpec": "",
-    "scope": null,
-    "spec": "latest",
-    "type": "tag"
-  },
-  "_requiredBy": [
-    "#USER"
-  ],
-  "_shrinkwrap": null,
-  "_spec": "fis-parser-ssi",
-  "_where": "C:\\Users\\Administrator\\Desktop\\testssi",
-  "author": {
-    "name": "miko"
-  },
+  "author": "miko",
   "bugs": {
     "url": "https://github.com/mikoshu/fis-parser-ssi/issues"
   },
@@ -67,14 +21,10 @@
   "license": "ISC",
   "main": "index.js",
   "maintainers": [
-    {
-      "email": "452753617@qq.com",
-      "name": "mikoshu"
-    }
+    "mikoshu <452753617@qq.com>"
   ],
   "name": "fis-parser-ssi",
   "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mikoshu/fis-parser-ssi.git"
@@ -82,5 +32,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.0.10"
+  "version": "1.0.10",
+  "readmeFilename": "README.md"
 }
