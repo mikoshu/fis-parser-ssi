@@ -1,29 +1,113 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/local/bin/node',
-1 verbose cli   '/usr/local/bin/npm',
-1 verbose cli   'version',
-1 verbose cli   '1.0.11' ]
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
 2 info using npm@3.8.6
 3 info using node@v5.11.0
-4 info git [ 'status', '--porcelain' ]
-5 verbose stack Error: Git working directory not clean.
-5 verbose stack M .DS_Store
-5 verbose stack     at /usr/local/lib/node_modules/npm/lib/version.js:246:19
-5 verbose stack     at ChildProcess.exithandler (child_process.js:193:7)
-5 verbose stack     at emitTwo (events.js:100:13)
-5 verbose stack     at ChildProcess.emit (events.js:185:7)
-5 verbose stack     at maybeClose (internal/child_process.js:850:16)
-5 verbose stack     at Socket.<anonymous> (internal/child_process.js:323:11)
-5 verbose stack     at emitOne (events.js:90:13)
-5 verbose stack     at Socket.emit (events.js:182:7)
-5 verbose stack     at Pipe._onclose (net.js:484:12)
-6 verbose cwd /Users/miko/Desktop/fis-parser-ssi
-7 error Darwin 15.4.0
-8 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "version" "1.0.11"
-9 error node v5.11.0
-10 error npm  v3.8.6
-11 error Git working directory not clean.
-11 error M .DS_Store
-12 error If you need help, you may report this error at:
-12 error     <https://github.com/npm/npm/issues>
-13 verbose exit [ 1, true ]
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/miko/Desktop/fis-parser-ssi',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/miko/.npm/fis-parser-ssi/1.0.11/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/miko/.npm correctMkdir not in flight; initializing
+10 info lifecycle fis-parser-ssi@1.0.11~prepublish: fis-parser-ssi@1.0.11
+11 silly lifecycle fis-parser-ssi@1.0.11~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/Users/miko/.npm/fis-parser-ssi/1.0.11/package.tgz',
+12 verbose tar pack   '/Users/miko/Desktop/fis-parser-ssi' ]
+13 verbose tarball /Users/miko/.npm/fis-parser-ssi/1.0.11/package.tgz
+14 verbose folder /Users/miko/Desktop/fis-parser-ssi
+15 verbose addLocalTarball adding from inside cache /Users/miko/.npm/fis-parser-ssi/1.0.11/package.tgz
+16 verbose correctMkdir /Users/miko/.npm correctMkdir not in flight; initializing
+17 silly cache afterAdd fis-parser-ssi@1.0.11
+18 verbose afterAdd /Users/miko/.npm/fis-parser-ssi/1.0.11/package/package.json not in flight; writing
+19 verbose correctMkdir /Users/miko/.npm correctMkdir not in flight; initializing
+20 verbose afterAdd /Users/miko/.npm/fis-parser-ssi/1.0.11/package/package.json written
+21 silly publish { author: { name: 'miko' },
+21 silly publish   bugs: { url: 'https://github.com/mikoshu/fis-parser-ssi/issues' },
+21 silly publish   dependencies: { ssi: '^0.3.0' },
+21 silly publish   description: 'to fis ssi',
+21 silly publish   devDependencies: {},
+21 silly publish   directories: {},
+21 silly publish   dist:
+21 silly publish    { shasum: '8dafbdf6c6e877c737eab98bf9dff8b69967c7a5',
+21 silly publish      tarball: 'https://registry.npmjs.org/fis-parser-ssi/-/fis-parser-ssi-1.0.9.tgz' },
+21 silly publish   homepage: 'https://github.com/mikoshu/fis-parser-ssi#readme',
+21 silly publish   keywords: [ 'ssi', 'fis' ],
+21 silly publish   license: 'ISC',
+21 silly publish   main: 'index.js',
+21 silly publish   maintainers: [ { name: 'mikoshu', email: '452753617@qq.com' } ],
+21 silly publish   name: 'fis-parser-ssi',
+21 silly publish   optionalDependencies: {},
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/mikoshu/fis-parser-ssi.git' },
+21 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+21 silly publish   version: '1.0.11',
+21 silly publish   readmeFilename: 'README.md',
+21 silly publish   readme: '# fis-parser-ssi 使用文档\n\n## 安装\n\n+ npm install fis-parser-ssi\n\n## 使用方法\n\n\tfis.match(\'*.html\', {\n\t  parser: fis.plugin(\'ssi\')\n\t})\n\n',
+21 silly publish   gitHead: 'b127d64340a942b6da99f55b01a806e1b4011a69',
+21 silly publish   _id: 'fis-parser-ssi@1.0.11',
+21 silly publish   _shasum: 'f6a42f7baa0e02648cc50bbb3e9c9f1d7b17c7ae',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name fis-parser-ssi
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'fis-parser-ssi',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   name: 'fis-parser-ssi',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/fis-parser-ssi
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading /Users/miko/.npm/fis-parser-ssi/1.0.11/package.tgz
+30 verbose request uri https://registry.npmjs.org/fis-parser-ssi
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 23:58:09
+33 verbose request using bearer token for auth
+34 verbose request id a5358cf912a7f541
+35 http request PUT https://registry.npmjs.org/fis-parser-ssi
+36 http 403 https://registry.npmjs.org/fis-parser-ssi
+37 verbose headers { 'content-type': 'application/json',
+37 verbose headers   'cache-control': 'max-age=300',
+37 verbose headers   'content-length': '96',
+37 verbose headers   'accept-ranges': 'bytes',
+37 verbose headers   date: 'Mon, 06 Jun 2016 15:58:11 GMT',
+37 verbose headers   via: '1.1 varnish',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'x-served-by': 'cache-itm7426-ITM',
+37 verbose headers   'x-cache': 'MISS',
+37 verbose headers   'x-cache-hits': '0',
+37 verbose headers   'x-timer': 'S1465228690.475946,VS0,VE593',
+37 verbose headers   vary: 'Accept-Encoding' }
+38 verbose request invalidating /Users/miko/.npm/registry.npmjs.org/fis-parser-ssi on PUT
+39 error publish Failed PUT 403
+40 verbose stack Error: "You cannot publish over the previously published version 1.0.11." : fis-parser-ssi
+40 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+40 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+40 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+40 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:199:22)
+40 verbose stack     at emitTwo (events.js:100:13)
+40 verbose stack     at Request.emit (events.js:185:7)
+40 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1036:10)
+40 verbose stack     at emitOne (events.js:95:20)
+40 verbose stack     at Request.emit (events.js:182:7)
+40 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:963:12)
+41 verbose statusCode 403
+42 verbose pkgid fis-parser-ssi
+43 verbose cwd /Users/miko/Desktop/fis-parser-ssi
+44 error Darwin 15.4.0
+45 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+46 error node v5.11.0
+47 error npm  v3.8.6
+48 error code E403
+49 error "You cannot publish over the previously published version 1.0.11." : fis-parser-ssi
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]
